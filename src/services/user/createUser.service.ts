@@ -1,6 +1,7 @@
-import { returnUserSchema } from '../../user.schemas';
+
 import { connection } from "../../../connection";
-import { CreateUser, ReturnUser } from "../../user.schemas";
+import { CreateUser, ReturnUser, returnUserSchema } from "../../schemas/user.schemas";
+
 
 export const createUserService = async (userData: CreateUser): Promise<ReturnUser> => {
 

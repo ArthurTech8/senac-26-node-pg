@@ -20,7 +20,7 @@
     },
     "include": [
         "src"
-, "services"    ],
+, "services", "user"    ],
     "exclude": [
         "node_modules"
     ]

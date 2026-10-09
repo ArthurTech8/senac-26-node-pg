@@ -1,5 +1,7 @@
 import { connection } from "../../../connection"
-import { ReturnUser } from "../../user.schemas"
+import { ReturnUser } from "../../schemas/user.schemas"
+
+
 
 export const getUsersService = async (): Promise<ReturnUser[]> => {
 

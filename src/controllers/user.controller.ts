@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
-import { getUsersService } from "../../services/user/getUsers.service";
-import { CreateUser, ReturnUser } from "../../schemas/user.schemas";
-import { createUserService } from "../../services/user/createUser.service";
+import { CreateUser, ReturnUser } from "../schemas/user.schemas";
+import { getUsersService } from "../services/user/getUsers.service";
+import { createUserService } from "../services/user/createUser.service";
 
 export const userController = {
     //tipo a request e a resposta do express
